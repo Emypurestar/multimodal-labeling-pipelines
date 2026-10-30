@@ -137,10 +137,19 @@ def process_label_studio_export(input_json_path, text_output_path, video_output_
 
 
 if __name__ == "__main__":
-    # Mock file architecture definitions for pipeline tracing
-    INPUT_FILE = "data/samples_raw/label_studio_raw_export.json"
+    # Point directly to your split raw sandbox files
+    TEXT_INPUT = "data/samples_raw/label_studio_raw_export.json"
+    VIDEO_INPUT = "data/samples_raw/label_studio_video_export.json"
+    
+    # Destination targets for clean data outputs
     TEXT_OUT = "data/samples_exported/sanitized_text_dataset.json"
     VIDEO_OUT = "data/samples_exported/flattened_video_timeline.json"
+
+    print("--- DATASET PREPROCESSING TERMINAL INITIALIZED ---")
+    # To run this script locally, uncomment the lines matching your data target:
+    # process_label_studio_export(TEXT_INPUT, TEXT_OUT, VIDEO_OUT)
+    # process_label_studio_export(VIDEO_INPUT, TEXT_OUT, VIDEO_OUT)
+
 
     print("--- DATASET PREPROCESSING TERMINAL INITIALIZED ---")
     # To run this script locally, place your actual export data at INPUT_FILE and uncomment line below:
