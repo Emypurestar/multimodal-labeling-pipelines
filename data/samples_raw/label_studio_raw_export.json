@@ -1,0 +1,114 @@
+[
+  {
+    "id": 17,
+    "annotations": [
+      {
+        "id": 18,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 11,
+              "end": 24,
+              "text": "Satya Nadella",
+              "labels": ["PER"]
+            },
+            "id": "8OoLOUXbca",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 40,
+              "end": 49,
+              "text": "Microsoft",
+              "labels": ["ORG"]
+            },
+            "id": "NRaIjvM7FS",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 119,
+              "end": 125,
+              "text": "London",
+              "labels": ["LOC"]
+            },
+            "id": "pgeQCf5GMo",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "lead_time": 46.598
+      }
+    ],
+    "data": {
+      "text_content": "Yesterday, Satya Nadella announced that Microsoft is building a massive new data center infrastructure just outside of London to support their latest AI models."
+    }
+  },
+  {
+    "id": 19,
+    "annotations": [
+      {
+        "id": 20,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 14,
+              "text": "Sundar Pichai ",
+              "labels": ["PER"]
+            },
+            "id": "fGX5X_OMpD",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 22,
+              "end": 27,
+              "text": "Paris",
+              "labels": ["LOC"]
+            },
+            "id": "S3BgnkmDC7",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 92,
+              "end": 98,
+              "text": "Google",
+              "labels": ["ORG"]
+            },
+            "id": "B1Wxsy5jUH",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "lead_time": 43.265
+      }
+    ],
+    "data": {
+      "text_content": "Sundar Pichai visited Paris last Tuesday to sign a collaborative research agreement between Google and several local universities."
+    }
+  }
+]
