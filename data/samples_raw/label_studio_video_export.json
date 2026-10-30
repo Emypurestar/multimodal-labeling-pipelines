@@ -1,0 +1,54 @@
+[
+  {
+    "id": 16,
+    "annotations": [
+      {
+        "id": 17,
+        "completed_by": 1,
+        "result": [
+          {
+            "id": "SWQ4QArua2",
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "origin": "manual",
+            "value": {
+              "framesCount": 173,
+              "duration": 7.2072,
+              "labels": ["Sedan"],
+              "sequence": [
+                {"frame": 1, "enabled": true, "rotation": 0, "x": -0.625, "y": 53.8888, "width": 42.34, "height": 35.0, "time": 0.0416},
+                {"frame": 11, "enabled": true, "rotation": 0, "x": -0.625, "y": 54.4444, "width": 43.43, "height": 34.72, "time": 0.4583},
+                {"frame": 21, "enabled": true, "rotation": 0, "x": -0.625, "y": 54.4444, "width": 45.31, "height": 36.66, "time": 0.875}
+              ]
+            }
+          },
+          {
+            "id": "hn0E_hyzzz",
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "origin": "manual",
+            "value": {
+              "framesCount": 173,
+              "duration": 7.2072,
+              "labels": ["Pedestrian"],
+              "sequence": [
+                {"frame": 1, "enabled": true, "rotation": 0, "x": 62.6988, "y": 53.005, "width": 3.2102, "height": 10.8838, "time": 0.0416},
+                {"frame": 12, "enabled": true, "rotation": 0, "x": 65.7528, "y": 53.5101, "width": 3.2102, "height": 10.8838, "time": 0.5},
+                {"frame": 22, "enabled": true, "rotation": 0, "x": 69.7143, "y": 53.5101, "width": 2.5157, "height": 10.8838, "time": 0.9166},
+                {"frame": 32, "enabled": false, "rotation": 0, "x": 73.0997, "y": 53.3557, "width": 2.5157, "height": 5.0196, "time": 1.3333}
+              ]
+            }
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "lead_time": 2752.219
+      }
+    ],
+    "data": {
+      "video": "/data/upload/5/768e1b9a-14762557_2560_1440_30fps.mp4"
+    }
+  }
+]
